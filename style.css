@@ -1,0 +1,35 @@
+body {
+    background-color: #242424;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.light-mode {
+    background-color: #b8b8b8;
+    color: black;
+}
+
+.text {
+    padding-left: 30px;
+    text-align: center;
+}
+
+.icon {
+    padding-top: 5px;
+    padding-right: 10px
+}
+
+#dark-mode-button {
+    float: right;
+    background-color: transparent;
+    border: none;
+}
+
+#header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#footer {
+    margin-top: 80px;
+}
