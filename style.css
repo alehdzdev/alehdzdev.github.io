@@ -1,8 +1,46 @@
+/* ----------------------------------------------------- */
+/* TAGS */
+/* ----------------------------------------------------- */
+
 body {
     background-color: #242424;
     color: white;
     font-family: 'Roboto Mono', monospace;
 }
+
+/* h1 {
+    padding-left: 1rem;
+} */
+
+/* ----------------------------------------------------- */
+/* IDS */
+/* ----------------------------------------------------- */
+
+#dark-mode-button {
+    float: right;
+    background-color: transparent;
+    border: none;
+}
+
+#header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#footer {
+    margin-top: 5rem;
+}
+
+#guy-gif {
+    vertical-align: middle;
+    height: 400px;
+    width: 600px;
+    padding-right: 2rem;
+}
+
+/* ----------------------------------------------------- */
+/* CLASSES */
+/* ----------------------------------------------------- */
 
 .light-mode {
     background-color: #b8b8b8;
@@ -19,17 +57,33 @@ body {
     padding-right: 10px
 }
 
-#dark-mode-button {
-    float: right;
-    background-color: transparent;
-    border: none;
-}
+/* ----------------------------------------------------- */
+/* MEDIA QUERYS */
+/* ----------------------------------------------------- */
 
-#header {
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-#footer {
-    margin-top: 80px;
-}
+@media only screen and (max-width: 900px) {
+    #footer {
+      margin-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    #about {
+        display: grid;
+    }
+    #guy-gif {
+        padding-right: 0rem;
+        width: 100%;
+        height: auto;
+    }
+    .text {
+        padding-left: 0px;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    h2 {
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    .icon {
+        padding-top: 5px;
+        padding-right: 0px
+    }
+  }
